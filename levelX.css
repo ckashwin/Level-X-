@@ -1,0 +1,1044 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* maincointer */
+.maincontainer{
+    height: 620vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* first image levelX */
+.imgtop img{
+    width: 90px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+/* top three text  */
+.texttop{
+    margin-top:200px;
+
+}
+.textupper{
+    font-size: 35px;
+    color: rgb(36,42,84);
+}
+.textmid{
+    font-size:23px;
+    margin-top: 10px;
+}
+.textbottom{
+    margin-top: 6px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(6,138,155)
+}
+
+
+
+
+
+/* top box with apply now button */
+.topcontainer{
+    margin-top: 180px;   
+    width: 67%;
+    height: 170px;
+    background-color: rgb(36,42,84);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+/* right */
+.containerright{
+    width: 95px;
+    height: 95px;
+    margin-top:37px;
+    margin-left: 100px;
+}
+.innerrighttop{
+    height: 50%;
+    width: auto;
+    background-color:rgb(246,177,75);
+    border-radius: 8px 8px 0 0;
+}
+.innerrightbottom{
+    height: 50%;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 8px 8px;
+}
+.containerright h2{
+    padding: 12px;
+    font-size: 23px;
+}
+
+
+
+/* mid */
+.containermid{
+    width: 50%;
+    margin-left: 70px;
+}
+.midtext1 p{
+    text-align: left;
+    margin-top: 20px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 500;
+}
+.midtext2 h1{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+
+.midbottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.midbottomleft{
+    display: flex;
+    gap: 10px;
+    
+}
+.iconleft{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.iconleft span{
+    padding: 10px;
+    color: rgb(242,145,8);
+}
+.textleft{
+    margin-top: 10px;
+    color: wheat;
+}
+
+.midbottomright{
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+.iconright{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.iconright span{
+    padding: 10px;
+    color: rgb(242,145,8);
+}
+.textright{
+    margin-top: 10px;
+    color: wheat;
+}
+
+
+/* right */
+.containerright button{
+    margin-top: 35px;
+    margin-left: -140px;
+    width: 90px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(242,145,0);
+    cursor: pointer;
+}
+
+
+
+
+
+/* line */
+.line1{
+margin-top: 150px;
+border: none;
+border-bottom: solid 0.5px rgba(0, 0, 0, 0.288);
+width: 80%;
+}
+
+
+
+
+/* upper mid text heading and para */
+.textupmid{
+    margin-top: 110px;
+}
+.textupmid h1{
+    font-size: 70px;
+    color: rgb(36,42,84);
+}
+.textupmid p{
+    font-size: larger;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.425);
+}
+
+
+
+
+
+/* upper mid four box */
+.boxupmid{
+   width: 82%;
+   height: 335px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
+}
+.boxmid {
+    width: 24%;
+    height: auto;
+    border-radius: 12px;
+}
+.boxmid.one{
+    background-color:rgb(180,237,248);
+}
+.boxmid.two{
+    background-color: rgb(251,221,177);
+}
+.boxmid.three{
+    background-color: rgb(167,243,208);
+}
+.boxmid.four{ 
+    background-color: rgb(216,180,254);
+}
+/* icon */
+
+.boxmidicon{
+    margin-top: 20px;
+    margin-right: 240px;
+}
+
+
+.boxmidline{
+    margin-top: 15px;
+    border: none;
+    border-bottom: solid 1px rgb(36,42,84);
+    width: 85%;
+    margin-left: 7%;
+}
+
+.boxmidtext{
+    width:85%;
+ margin-left: 7%; 
+}
+.boxmidtext h2{
+ text-align: left;
+ color: rgb(36,42,84);
+ margin-top: 15px;
+
+}
+.boxmidtext p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* center middel box "ready to level up " */
+.centermidbox{
+    margin-top: 100px;
+    width: 84%;
+    height: 450px;
+    background-color: rgb(180,237,248);
+    border-radius: 20px;
+}
+
+.centermidtext h1{
+    color: rgb(36,42,84);
+    margin-top: 45px;
+    font-size: 50px;
+}
+
+/* the boxs */
+.centerboxs{
+    width: 85%;
+    height: 170px;
+    margin-top:90px ;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.cenbox{
+    width: 15%;
+    height: auto;
+}
+.innerbox.one{
+    width: 43px;
+}
+.innerbox.two{
+    width: 50px;
+}
+.innerbox.three{
+    width: 57px
+}
+.innerbox.four{
+    width: 64px;
+}
+.innerbox.five{
+    width: 71px;
+}
+.innerbox{
+    height: 80px;
+    border: dashed 1px rgb(36,42,84);
+    border-right: transparent;
+    border-bottom: transparent;
+    position: relative;
+}
+.cenboxs{
+    width: 45px;
+    height: 45px;
+    background-color:rgb(36,42,84);
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -23px;
+    margin-left: -23px;
+}
+.cenboxs h2{
+    padding: 8px;
+    color: white;
+}
+
+.cenboxtext p{
+    position: absolute;
+    width: 160px;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 30px;
+    color: rgb(36,42,84);
+    font-size: larger;
+}
+
+
+/* center bottom text "become a software developer" */
+.centerbottom{
+    margin-top: 150px;
+    width: 70%;
+}
+.cenbottomtext h1{
+    font-size: 50px;
+    color: rgb(36,42,84);
+}
+.cenbottomcontainer{
+    margin-top: 90px;
+    width: 100%;
+    height: 225px;
+    display: flex;
+    justify-content: space-between;
+}
+.cenbottomtexts{
+    width: 33.5%;
+    height: auto;
+}
+.cenbottomtexts.one{
+    border: dashed 1px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+.cenbottomtexts h2 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top:45px;
+    color: rgb(36,42,84);
+}
+.cenbottomtexts p{
+    text-align: left;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+/* bottom cointainer with two box */
+.bottomcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    height: 565px;
+    margin-top: 60px;
+}
+
+
+.bottomcontainers{
+    width: 45%;
+    height: 100%;
+    border-radius: 20px;
+}
+.bottomcontainers.left{
+    background-color: rgb(225,248,252);
+}
+.bottomcontainers.right{
+    background-color: rgb(253,242,224);
+}
+
+
+.innercontainer{
+    height: 85%;
+    width: 90%;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.innercontainer h3{
+    text-align: left;
+    color: rgb(27,138,155);
+}
+.innercontainer h1{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: rgb(36,42,84);
+}
+.innercontainer h2{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: rgb(27,138,155);
+}
+.innercontainer p{
+    text-align: left;
+    color: rgb(36,42,84);
+}
+.toph3 h3{
+   color: rgb(242,145,0);
+}
+.bottomh2 h2{
+    color: rgb(242,145,0);
+}
+
+.containerdate{
+    display: flex;
+    justify-content: space-between;
+    width: 124px;
+    height: 50px;
+    margin-top: 5px;
+}
+.monthcontainer{
+    width: 50%;
+    height: auto;
+    background-color: rgb(246,177,75);
+    border-radius: 8px 0 0 8px;
+}
+.yearcontainer{
+    width: 50%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 8px 8px 0;
+}
+.containerdate p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+
+
+.iconcontainers{
+     width: 50%;
+     height: auto;
+}
+.iconcontainer1{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.iconcontainer2{
+    display: flex;
+    gap: 10px;
+}
+.iconcontainerhat{
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    border-radius: 4px;
+}
+.iconcontainercal{
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    border-radius: 4px;
+}
+.material-symbols-outlined{
+    color:rgb(36,42,84);
+}
+
+
+.bottomchin{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(82,213,237);
+    border-radius: 4px 4px 20px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.bottomchin1{
+    width: 100%;
+    height: 10%;
+    background-color:rgb(246,177,75);
+    border-radius: 4px 4px 20px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.innerchintext{
+    margin-top: 17px;
+    color: rgb(36,42,84);
+}
+.innerchinicon{
+    margin-top: 13px;
+    color: rgb(36,42,84);
+}
+
+
+
+
+
+/* group of icons */
+.groupoficons{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+
+
+.flutter img{
+    background-color: white;
+    width: 30px;
+    border-radius: 50%;
+    border: solid 5px white;
+    margin-top: 5.5px;
+}
+.flutter{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+.dart img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 5.5px white;
+    margin-top: 4.3px;
+    margin-right: 1px;
+}
+.dart{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    margin-left: 33px;
+    position: absolute;
+}
+
+
+
+
+.android img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 6px white;
+    margin-top: 4px;
+    margin-right: 1px;
+
+}
+.android{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 66px;
+}
+
+
+
+
+
+.apple img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 6px white;
+    margin-top: 4px;
+    margin-right: 1px;
+}
+.apple{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 99px;
+}
+
+
+
+
+
+.javascript img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 4.5px;
+}
+.javascript{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 132px;
+
+}
+
+
+
+
+.mongodb img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-top: 4.5px; 
+}
+.mongodb{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 165px;
+}
+
+
+
+
+
+.firebase img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 4.5px;
+}
+.firebase{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(225,248,252);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 198px;
+}
+
+ 
+
+/* right container */
+
+.angular img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 6px white;
+    margin-top: 4px;
+    margin-left: 0.5px;
+}
+.angular{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+
+
+.html img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 6px white;
+    margin-top: 4px;
+    margin-left: 0.5px;
+}
+.html{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 33px;
+}
+
+
+
+
+
+.css img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 6px white;
+    margin-top: 4px;
+}
+.css{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 66px;
+}
+
+
+
+.javascript1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 4.5px;
+}
+.javascript1{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 99px;
+}
+
+
+
+
+.typescript img{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.typescript{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 132px;
+}
+
+
+
+
+
+.mongodb1 img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-top: 4.5px; 
+}
+.mongodb1{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 165px;
+}
+
+
+
+
+.firebase1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 4.5px;
+}
+.firebase1{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(253,242,224);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 198px;
+}
+
+
+
+
+
+
+/* last text box "frequently asked questions */
+
+.lastTextBox{
+    margin-top: 235px;
+}
+
+
+.lastheading h1{
+   font-size: 50px;
+   color: rgb(36,42,84);
+   margin-bottom: 20px;
+}
+.lastheading p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.678);
+   
+}
+
+
+
+/* text boxes in last */
+
+
+.lasttextboxs{
+    margin-top:40px;
+    width: 55%;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textbox{
+    border: solid 2px rgba(0, 0, 0, 0.123);
+    height: 90px;
+    width: 100%;
+    border-radius: 18px;
+}
+.textbox h3{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 25px;
+    color: rgb(36,42,84);
+    font-weight: 800;
+    font-size: 21px;
+}
+.textbox1{
+    border: solid 2px rgba(0, 0, 0, 0.123);
+    height: 60px;
+    width: 100%;
+    border-radius: 18px;
+}
+.textbox1 h3{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: rgb(36,42,84);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+.textbox p{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: -23px;
+    color: rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+}
+.textbox1 p{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: -23px;
+    color: rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+}
+
+
+
+/* last blue box  */
+.lastbluebox{
+    margin-top: 100px;
+    width: 100%;
+    height: 305px;
+    background-color: rgb(23,195,226);
+}
+
+
+.lastblueboxinner h1{
+    margin-top: 40px;
+    font-size: 46px;
+    color: rgb(36,42,84);
+}
+.lastblueboxinner p{
+    margin-top: 15px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.37);
+
+}
+
+.whatsappbox button{
+    width: 155px;
+    height: 37px;
+    border: solid 2px rgb(36,42,84);
+    border-radius: 13px;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(23,195,226);
+}
+.whatsappbox i{
+    font-size: 23px;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+.whatsappbox p{
+    font-size: 13px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.whatsappbox :hover{
+    background-color: rgb(36,42,84) ;
+    color: white;
+}
+.whatsappbox :active{
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+
+
+
+
+
+/* last box dark blue */
+
+.lastdarkbluebox{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(36,42,84) ;
+    display: flex;
+
+}
+.lastfirstbox{
+    height: 100%;
+    margin-left: 170px;
+}
+.lastfirstimg img{
+    width: 80px;
+    height:30px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: flex;
+
+}
+.lastfirstbox p{
+    text-align: left;
+    color: white;
+}
+.firsttextadd p{
+    margin-bottom: 45px;
+}
+
+
+
+
+.lastmidbox{
+    height: 100%;
+    width: 280px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: white;
+}
+.lastmidtext1 h3{
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+}
+.lastmidtext3 p{
+    margin-top: 20px;
+}
+.lastrightbox{
+    margin-top: 65px;
+}
+.lastmidbox p{
+    text-align: left;
+}
+
+.phone{
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+}
+.mail{
+    display: flex;
+    gap: 14px;
+}
+.phoneicon span{
+    color:white;
+    font-size: 20px;
+}
+.mailicon span{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.followandicons{
+    margin-top: 40px;
+    color: white;
+    margin-left: 200px;
+}
+
+
+
+.logoo i{
+    width: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.socialicon{
+    margin-top: 20px;
+    width: 85px;
+    display: flex;
+    justify-content: space-between;
+}
